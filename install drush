@@ -1,0 +1,23 @@
+To download any file from site
+------------------------------
+wget FILE_PATH/FILE_NAME.tar.gz (drush-7.x-5.4.tar.gz)
+
+UNZIP the downloaded file
+-------------------------
+tar vzxf FILE_NAME.tar.gz
+chmod u+x drush /*Make executable*/
+ln -s /root/drush/drush /usr/bin/drush /*Make symlink*/
+
+Check drush is working or not
+----------------------------
+go to root and type following command
+drush or drush Help
+
+drush status
+drush dl MODULE_NAME
+drush en MODULE_NAME 
+drush cron
+
+To remove any folder 
+--------------------
+rm -rf NAME_OF_FOLDER
